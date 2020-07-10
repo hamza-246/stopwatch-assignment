@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="own-main">
+        
+        <div class="mai-h1">
+        <div class="container text-center circle">
+            
+            <h1 class="text-white h1-own" id="min">00</h1>
+            <p class="text-white h1-ow">:</p>
+            <h1 class="text-white h1-own" id="sec">00</h1>
+            <h1 class="text-white h1-2" id="msec">00</h1>    
+        </div></div>
+    </div>
+
+    <div class="circl">
+        <img class="img" width="100%" src="img/shape.png" alt="">
+    </div>
+    
+    <div class="but container text-center">
+     <button class="butt" onclick="start()" id="butto"><i class="material-icons" style="font-size:26px;padding-top: 5px;">pause</i></button>
+     <button class="butt" onclick="stop()" id="butt"><i class="material-icons" style="font-size:26px;padding-top: 5px;">stop</i></button>
+     <button class="butt" onclick="reset()" id="but"><i class="material-icons" style="font-size:26px;padding-top: 5px;">refresh</i></button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
